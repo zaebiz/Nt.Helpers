@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>nikita.titarenko</Authors>
+    <Product>Nt.Helpers</Product>
+    <Description>various tools and utils for ASP.NET Core development</Description>
+    <PackageTags>asp.net core</PackageTags>
+    <PackageReleaseNotes />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
