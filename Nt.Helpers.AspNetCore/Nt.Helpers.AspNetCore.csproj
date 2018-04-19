@@ -6,8 +6,9 @@
     <Product>Nt.Helpers</Product>
     <Description>various tools and utils for ASP.NET Core development</Description>
     <PackageTags>asp.net core</PackageTags>
-    <PackageReleaseNotes />
+    <PackageReleaseNotes>add ValidateModel Filters</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
