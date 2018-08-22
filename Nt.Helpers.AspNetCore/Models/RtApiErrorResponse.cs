@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using Nt.Helpers.AspNetCore.Extensions;
 
 namespace Nt.Helpers.AspNetCore.Models
 {
@@ -36,7 +37,7 @@ namespace Nt.Helpers.AspNetCore.Models
 
         public void AddError(Exception exception)
         {
-            AddError(exception.Message);
+            AddError(exception.TryLast().Message);
         }
 
         public void AddError(string errorMessage)
