@@ -6,9 +6,10 @@
     <Product>Nt.Helpers</Product>
     <Description>various tools and utils for ASP.NET Core development</Description>
     <PackageTags>asp.net core</PackageTags>
-    <PackageReleaseNotes>add IJwtTokenHelper</PackageReleaseNotes>
+    <PackageReleaseNotes>+ RtApiResponse.Error
++ RtApiResponse.Warnings</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.1.5</Version>
+    <Version>1.2.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

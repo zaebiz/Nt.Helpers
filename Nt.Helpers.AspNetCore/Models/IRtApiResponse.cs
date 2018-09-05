@@ -15,8 +15,20 @@ namespace Nt.Helpers.AspNetCore.Models
 
         string LogEventId { get; set; }
 
-        void AddError(Exception errorException);
-        void AddError(string errorMessage);
+        /// <summary>
+        /// заполнить поля Response на основе исключения
+        /// </summary>        
+        void AddError(Exception exception);
+
+        /// <summary>
+        /// заполнить полe Error в ответе сервера
+        /// </summary>
+        void AddError(string message, string code = null);
+
+        /// <summary>
+        /// Добавить Warning к ответу
+        /// </summary>
+        void AddWarning(string message, string code = null);
         //void AddError(string errorMessage, Exception errorException);
     }
 }
